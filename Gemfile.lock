@@ -2,7 +2,6 @@ PATH
   remote: .
   specs:
     capistrano-influxdb (0.0.1)
-      influxdb
 
 GEM
   remote: https://rubygems.org/
@@ -18,4 +17,5 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.3)
   capistrano-influxdb!
+  influxdb
   rake
