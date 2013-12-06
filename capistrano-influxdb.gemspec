@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Capistrano::Influxdb::VERSION
   spec.authors       = ["Richard Lister"]
   spec.email         = ["rlister@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Capistrano v3 task for reporting deploys to InfluxDB}
+  spec.summary       = %q{Report deploys to InfluxDB}
+  spec.homepage      = "http://github.com/rlister/capistrano-influxdb"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
