@@ -4,6 +4,14 @@ Simple Capistrano 3 plugin to report deploys to influxdb.
 
 ## Usage
 
+Gem install (or bundle):
+
+```sh
+gem install capistrano-influxdb
+```
+
+Add to `Capfile`:
+
 ```ruby
 require 'capistrano/influxdb'
 
