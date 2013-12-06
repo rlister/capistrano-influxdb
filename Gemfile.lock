@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    capistrano-influxdb (0.0.1)
+      influxdb
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    influxdb (0.0.10)
+      json
+    json (1.8.1)
+    rake (10.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  capistrano-influxdb!
+  rake
